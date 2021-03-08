@@ -20,6 +20,8 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    ls
+    pwd
     npm install
     npm run parallel
   displayName: 'npm install and build'
