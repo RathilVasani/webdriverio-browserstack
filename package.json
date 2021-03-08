@@ -27,6 +27,7 @@
     "@wdio/cli": "^5.22.4",
     "browserstack-local": "^1.3.7",
     "chai": "^4.2.0",
+    "wdio-browserstack-reporter": "~0.1.1",
     "webdriverio": "^5.22.4"
   },
   "devDependencies": {
