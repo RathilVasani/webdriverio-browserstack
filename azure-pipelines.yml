@@ -23,8 +23,6 @@ steps:
     ls
     pwd
     npm install webdriverio --save-dev
-    npm install
-    npm run parallel
   displayName: 'npm install and build'
 
 - task: BrowserStackResults@0
