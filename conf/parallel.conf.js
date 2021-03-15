@@ -33,6 +33,15 @@ exports.config = {
   connectionRetryCount: 3,
   host: 'hub.browserstack.com',
 
+  
+  reporters: ["browserstack"],
+  reporterOptions: {
+    browserstack: {
+      outputDir: "./"
+    }
+  },
+  
+  
   before: function () {
     var chai = require('chai');
     global.expect = chai.expect;
