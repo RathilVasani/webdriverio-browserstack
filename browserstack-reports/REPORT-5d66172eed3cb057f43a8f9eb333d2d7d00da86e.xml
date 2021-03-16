@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Google_s_Search_Functionality">
+    <testcase name="can_find_search_results" id="Google_s_Search_Functionality.can_find_search_results{0}" index="0">
+      <session>5d66172eed3cb057f43a8f9eb333d2d7d00da86e</session>
+    </testcase>
+  </testsuite>
+</testsuites>
