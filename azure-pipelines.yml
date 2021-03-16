@@ -22,6 +22,7 @@ steps:
 - script: |
     ls
     pwd
+    npm install @wdio/reporter
     npm run parallel
   displayName: 'npm install and build'
 
