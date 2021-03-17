@@ -26,6 +26,7 @@ steps:
     npm install
     npm install @wdio/reporter
     npm run parallel
+    - task: BrowserStackResults@0
   displayName: 'npm install and build'
 
 - task: BrowserStackResults@0
