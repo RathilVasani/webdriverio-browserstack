@@ -21,8 +21,6 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    ls
-    pwd
     npm install
     npm install @wdio/reporter
     npm run parallel
